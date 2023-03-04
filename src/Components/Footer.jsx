@@ -1,16 +1,20 @@
 function Footer() {
-    return (
-      <footer className="page-footer cyan darken-3">
-        <div className="footer-copyright">
-          <div className="container">
-            © {new Date().getFullYear()} Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">
-              Repo
-            </a>
-          </div>
+  return (
+    <footer className="page-footer cyan darken-3">
+      <div className="footer-copyright">
+        <div className="container">
+          © {new Date().getFullYear()} Copyright Text
+          <a
+            className="grey-text text-lighten-4 right"
+            href="https://github.com/viix54/reactShop3"
+            terget="_blank"
+          >
+            Repo
+          </a>
         </div>
-      </footer>
-    );
-  }
-  
-  export default Footer;
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
